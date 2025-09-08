@@ -8,7 +8,7 @@ Built for shimmer, silence, and stability across all platforms.
 
 ## 🧬 Supported Platforms
 
-🖥️ macOS • 🪟 Windows • 🐧 Linux  
+🖥️ macOS • 🪟 Windows • 🐧 Linux .chromebook 
 ✅ Breath loop | 💾 Cache sweep | 🛡 UI-safe | 🔄 12s shimmer cycle
 
 ---
