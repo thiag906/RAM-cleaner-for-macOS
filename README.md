@@ -1,42 +1,6 @@
-# 🫧 VaultGuardian — RAM Cleaner for macOS, Windows, and Linux
-
-Memory breath sentinel for **funOS-style macOS**, **Windows**, and now **Linux** environments.  
-Scans RAM every 12 seconds, purging gently when needed.  
-Built for shimmer, silence, and stability across all platforms.
-
----
-
-## 🧬 Supported Platforms
-
-🖥️ macOS • 🪟 Windows • 🐧 Linux .chromebook 
-✅ Breath loop | 💾 Cache sweep | 🛡 UI-safe | 🔄 12s shimmer cycle
-
----
-
-## 💻 Usage (macOS)
-
-1. **Download** `funOS_vaultGuardian.command`
-2. Open **Terminal**
-3. Drag `.command` file into Terminal
-4. Hit `Enter`  
-✅ Runs silently in the background, refreshing memory every 12 seconds
-
----
-
-## 🪟 Usage (Windows)
-
-1. **Download** `vaultGuardian-win.bat`
-2. Double-click or right-click → **Run as administrator**  
-✅ Purges temp folders and echoes breath status every 12 seconds
-
----
-
-## 🐧 Usage (Linux)
-
-1. **Download** `vaultGuardian-linux.sh`
-2. Open Terminal in the file’s directory
-3. Run:
-
-   ```bash
-   chmod +x vaultGuardian-linux.sh
-   ./vaultGuardian-linux.sh
+🫧 VaultGuardian — RAM Cleaner for macOS, Windows, Linux, and Chromebook Memory breath sentinel for funOS-style macOS, Windows, Linux, and now Chromebook environments. Scans RAM every 12 seconds, purging gently when needed. Built for shimmer, silence, and stability across all platforms.
+🧬 Supported Platforms 🖥️ macOS • 🪟 Windows • 🐧 Linux • 💻 Chromebook ✅ Breath loop | 💾 Cache sweep | 🛡 UI-safe | 🔄 12s shimmer cycle
+💻 Usage (macOS) Download funOS_vaultGuardian.command Open Terminal Drag .command file into Terminal Hit Enter ✅ Runs silently in the background, refreshing memory every 12 seconds
+🪟 Usage (Windows) Download vaultGuardian-win.bat Double-click or right-click → Run as administrator ✅ Purges temp folders and echoes breath status every 12 seconds
+🐧 Usage (Linux) Download vaultGuardian-linux.sh Open Terminal in the file’s directory Run: chmod +x vaultGuardian-linux.sh ./vaultGuardian-linux.sh ✅ Purges temp and cache folders every 12 seconds ✅ Logs shimmer cycles to vaultPulse.log
+💻 Usage (Chromebook) Enable Linux (Crostini) in Chromebook settings Download vaultGuardian-chromeboo.sh Open Terminal in the file’s directory Run: chmod +x vaultGuardian-chromeboo.sh ./vaultGuardian-chromeboo.sh ✅ Cleans /tmp and ~/.cache every 12 seconds ✅ Logs Sekula breath cycles to vaultPulse.log ✅ Runs silently in the background ✅ Shrine-stable and UI-safe for ChromeOS
